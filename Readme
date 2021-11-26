@@ -1,0 +1,22 @@
+Frontend developement, backend developement
+1. What informed your choice of technologies for this task?
+
+I choose to use NodeJS for APIs because it's very easy to set up.
+I choose to build the front with ReactJS because I am very convinient with it.
+I store data on MongoDB.
+
+
+2. What is a messaging queue?
+
+A message queue is a form of asynchronous service-to-service communication used in serverless and microservices architectures. Messages are stored on the queue until they are processed and deleted. Each message is processed only once, by a single consumer.
+
+1. A user complained that your app takes 3 seconds to come up when they launch it, what are the possible causes to look into?
+
+Because I use ReactJS for the frontend, there’s no pre-rendering. I will check the data loading before the DOM is rendered. They are the possible cause for slow loading.
+
+
+1. What are In-memory databases, when are they required?
+
+In-memory databases are purpose-built databases that rely primarily on memory for data storage, in contrast to databases that store data on disk or SSDs. In-memory databases can persist data on disks by storing each operation in a log or by taking snapshots.
+
+In-memory databases are ideal for applications that require microsecond response times or have large spikes in traffic such as gaming leaderboards, session stores, and real-time analytics.
